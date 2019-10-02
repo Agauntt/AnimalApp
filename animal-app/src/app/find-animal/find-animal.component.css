@@ -1,0 +1,9 @@
+table , th, td {
+    border: 1px solid black;
+    margin-left: 48px;
+}
+
+form{
+    margin-left: 48px;
+    margin-bottom: 10px;
+}

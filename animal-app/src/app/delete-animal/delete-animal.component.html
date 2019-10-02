@@ -1,0 +1,6 @@
+<div>
+    <form (ngSubmit)="deleteAnimal()"#animalForm="ngForm">
+        <input type="text" name="id" placeholder="Enter animal id" [(ngModel)]="id"/>
+        <input type="submit" value="Find">
+    </form>
+</div>

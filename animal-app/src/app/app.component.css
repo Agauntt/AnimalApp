@@ -1,0 +1,10 @@
+ul#nav li {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}

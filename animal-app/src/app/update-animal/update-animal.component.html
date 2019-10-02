@@ -1,0 +1,9 @@
+<div>
+    <form (ngSubmit)="updateAnimal()"#animalForm="ngForm">
+        <input type="text" name="id" placeholder="Enter animal id" [(ngModel)]="animal.id"/><br>
+        <input type="text" name="name" placeholder="Enter animal name" [(ngModel)]="animal.name"/><br>
+        <input type="number" name="age" placeholder="Enter animal age" [(ngModel)]="animal.age"/><br>
+        <input type="text" name="catagory" placeholder="Enter animal catagory" [(ngModel)]="animal.catagory"/><br>
+        <input type="submit" value="Create"/>
+    </form>
+</div>

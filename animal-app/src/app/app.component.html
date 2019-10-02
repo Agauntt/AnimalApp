@@ -1,0 +1,17 @@
+<div style="text-align: center">
+  <h1 style="text-decoration: underline">Welcome to {{ title }}</h1>
+</div>
+
+<div style="text-align: left">
+  <ul id="nav">
+  <li><a routerLink="/animals">Aminals List</a> </li> <span>  |  </span>
+  <li><a routerLink="/createAnimal">Add Animal</a> </li><span>  |  </span>
+  <li><a routerLink="/updateAnimal">Update Animal</a> </li><span>  |  </span>
+  <li><a routerLink="/findAnimal">Find Animal</a> </li><span>  |  </span>
+  <li><a routerLink="/deleteAnimal">Delete Animal :(</a> </li>
+  </ul>
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div>

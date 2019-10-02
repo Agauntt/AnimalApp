@@ -1,0 +1,23 @@
+<div>
+    <form (ngSubmit)="findAnimal()"#animalForm="ngForm">
+        <input type="text" name="id" placeholder="Enter animal id" [(ngModel)]="id"/>
+        <input type="submit" value="Find">
+    </form>
+</div>
+
+<div>
+    <table class="animal-table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Catagory</th>
+        </tr>
+        <tr *ngIf="animal">
+            <td>{{ animal.id }}</td>
+            <td>{{ animal.name }}</td>
+            <td>{{ animal.age }}</td>
+            <td>{{ animal.catagory }}</td>
+        </tr>
+    </table>
+</div>
